@@ -1,0 +1,22 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm & IDE settings
+.idea/
+.vscode/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Data Files (Don't commit large raw CSVs or API keys)
+data/raw/*
+data/processed/*
+!.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
